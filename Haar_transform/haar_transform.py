@@ -8,4 +8,4 @@ def Haar_transform(input, n) :
         return A + D
     else :
         n -= 1
-        return Haar_transform(A, n) + Haar_transform(D, n)
+        return Haar_transform(A, n) + D
